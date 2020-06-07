@@ -28,11 +28,11 @@ $.modal = function (options) {
 
     return {
         open() {
-
+            $modal.classList.add('open');
         },
 
         close() {
-
+            $modal.classList.remove('open');
         },
 
         destroy() {
